@@ -1,1 +1,5 @@
-server/node_modules/ 
+server/node_modules/
+server/dev.db
+server/dist
+server/.env
+server/generated/prisma

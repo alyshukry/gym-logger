@@ -15,5 +15,14 @@
         "strict": true,
         "skipLibCheck": true,
         "esModuleInterop": true
-    }
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "prisma",
+        "dist",
+        "node_modules",
+        "generated"
+    ]
 }
