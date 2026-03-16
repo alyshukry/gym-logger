@@ -4,5 +4,5 @@ import { loginController } from '../controllers/login'
 
 export const apiRouter = express.Router()
 
-apiRouter.get('/register', registerController)
-apiRouter.get('/login', loginController)
+apiRouter.post('/register', registerController)
+apiRouter.post('/login', loginController)
