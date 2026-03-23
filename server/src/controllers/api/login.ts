@@ -1,8 +1,8 @@
 import { Request, Response } from 'express'
 import bcryptjs from 'bcryptjs'
 import createHttpError, { HttpError } from 'http-errors'
-import prisma from '../utils/prisma'
-import { signAccessToken, signRefreshToken } from '../utils/jwt'
+import prisma from '../../utils/prisma'
+import { signAccessToken, signRefreshToken } from '../../utils/jwt'
 
 export const loginController = async (req: Request, res: Response) => {
     try {

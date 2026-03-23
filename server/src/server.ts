@@ -1,5 +1,5 @@
 import express from 'express'
-import { apiRouter } from './routes/auth'
+import { apiRouter } from './routes/api/auth'
 import cookieParser from 'cookie-parser'
 
 const app = express()

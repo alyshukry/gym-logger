@@ -1,5 +1,5 @@
 import { Request, Response } from 'express'
-import { signAccessToken, signRefreshToken, verifyRefreshToken } from '../utils/jwt'
+import { signAccessToken, signRefreshToken, verifyRefreshToken } from '../../utils/jwt'
 
 export const refreshController = (req: Request, res: Response) => {
     try {

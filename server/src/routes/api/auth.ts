@@ -1,7 +1,7 @@
 import express from 'express'
-import { registerController } from '../controllers/register'
-import { loginController } from '../controllers/login'
-import { refreshController } from '../controllers/refresh'
+import { registerController } from '../../controllers/api/register'
+import { loginController } from '../../controllers/api/login'
+import { refreshController } from '../../controllers/api/refresh'
 
 export const apiRouter = express.Router()
 
